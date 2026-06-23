@@ -1,3 +1,26 @@
+<a name="v0.5.1"></a>
+# [Static Array Version 0.5.1 (v0.5.1)](https://github.com/Tomaso2468/static-array/releases/tag/v0.5.1) - 23 June 2026
+
+## What's Changed
+* fix compilation in future rust versions by @WaffleLapkin in https://github.com/WhyAreAllTheseTaken/static-array/pull/1
+
+## New Contributors
+* @WaffleLapkin made their first contribution in https://github.com/WhyAreAllTheseTaken/static-array/pull/1
+
+**Full Changelog**: https://github.com/WhyAreAllTheseTaken/static-array/compare/v0.5.0...v0.5.1
+
+[Changes][v0.5.1]
+
+<a name="v0.5.0"></a>
+# [Static Array Version 0.5.0 (v0.5.0)](https://github.com/Tomaso2468/static-array/releases/tag/v0.5.0) - 25 Jan 2024
+
+## Added
+- Implemented `DerefMut` for `HeapArray`, `HeapArray2D` and `HeapArray3D`.
+
+**Full Changelog**: https://github.com/Tomaso2468/static-array/compare/v0.4.0...v0.5.0
+
+[Changes][v0.4.0]
+
 <a name="v0.4.0"></a>
 # [Static Array Version 0.4.0 (v0.4.0)](https://github.com/Tomaso2468/static-array/releases/tag/v0.4.0) - 25 Jan 2024
 
