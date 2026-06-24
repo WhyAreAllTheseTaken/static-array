@@ -197,7 +197,7 @@ impl <T, const N: usize> IntoIterator for HeapArray<T, N> {
         // This moves the whole array from heap to the stack and is extremely inefficient.
         // After <https://github.com/rust-lang/rust/pull/134021> is merged, this could use
         // `<Box<[T; N]> as IntoIterator>::IntoIter`, which keeps the array in place.
-        <[T; N]>::into_iter(*self.data)
+        (*self.data).into_iter()
     }
 }
 
@@ -461,7 +461,7 @@ impl <T, const M: usize, const N: usize> IntoIterator for HeapArray2D<T, M, N> {
     type IntoIter = <[[T; M]; N] as IntoIterator>::IntoIter;
 
     fn into_iter(self) -> Self::IntoIter {
-        self.data.into_iter()
+        (*self.data).into_iter()
     }
 }
 
@@ -737,7 +737,7 @@ impl <T, const L: usize, const M: usize, const N: usize> IntoIterator for HeapAr
     type IntoIter = <[[[T; L]; M]; N] as IntoIterator>::IntoIter;
 
     fn into_iter(self) -> Self::IntoIter {
-        self.data.into_iter()
+        (*self.data).into_iter()
     }
 }
 
