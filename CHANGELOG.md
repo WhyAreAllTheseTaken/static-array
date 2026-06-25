@@ -1,3 +1,11 @@
+<a name="v0.5.2"></a>
+# [Static Array Version 0.5.2 (v0.5.2)](https://github.com/Tomaso2468/static-array/releases/tag/v0.5.2) - 25 June 2026
+
+## What's Changed
+* actually fix compatibility with future rust versions by @WaffleLapkin in https://github.com/WhyAreAllTheseTaken/static-array/pull/3
+
+**Full Changelog**: https://github.com/WhyAreAllTheseTaken/static-array/compare/v0.5.1...v0.5.2
+
 <a name="v0.5.1"></a>
 # [Static Array Version 0.5.1 (v0.5.1)](https://github.com/Tomaso2468/static-array/releases/tag/v0.5.1) - 23 June 2026
 
